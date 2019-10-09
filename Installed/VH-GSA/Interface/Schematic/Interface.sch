@@ -768,4 +768,16 @@ Connection ~ 6000 3800
 Wire Wire Line
 	7650 2550 5800 2550
 Connection ~ 5800 2550
+Text Notes 6150 600  0    60   ~ 0
+Operate / Isolate
+Text Notes 8700 1400 0    60   ~ 0
+Display / Voice
+Text Notes 8700 2550 0    60   ~ 0
+Flarm Data
+Text Notes 8700 3600 0    60   ~ 0
+Aux
+Text Notes 7250 5000 0    60   ~ 0
+Kobo
+Text Notes 700  6250 0    60   ~ 0
+12V Supply
 $EndSCHEMATC

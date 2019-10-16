@@ -1,0 +1,257 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4750 2500 0    60   ~ 0
+UBEC-3A-6S
+$Comp
+L CONN_01X03 P18
+U 1 1 5D9DB585
+P 3050 2500
+F 0 "P18" H 3050 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 3150 2500 50  0001 C CNN
+F 2 "" H 3050 2500 50  0000 C CNN
+F 3 "" H 3050 2500 50  0000 C CNN
+	1    3050 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P17
+U 1 1 5D9DB5EA
+P 2900 2500
+F 0 "P17" H 2900 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 3000 2500 50  0001 C CNN
+F 2 "" H 2900 2500 50  0000 C CNN
+F 3 "" H 2900 2500 50  0000 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Polyfuse_Small F1
+U 1 1 5D9DC029
+P 2450 2400
+F 0 "F1" V 2375 2400 50  0000 C CNN
+F 1 "Polyfuse_Small" V 2525 2400 50  0001 C CNN
+F 2 "" H 2500 2200 50  0001 L CNN
+F 3 "" H 2450 2400 50  0001 C CNN
+	1    2450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P16
+U 1 1 5D9DC29B
+P 1250 2450
+F 0 "P16" H 1250 2600 50  0000 C CNN
+F 1 "Anderson 15A" V 1350 2450 50  0000 C CNN
+F 2 "" H 1250 2450 50  0000 C CNN
+F 3 "" H 1250 2450 50  0000 C CNN
+	1    1250 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR12
+U 1 1 5D9DD65D
+P 3800 2600
+F 0 "#PWR12" H 3800 2400 50  0001 C CNN
+F 1 "GNDPWR" H 3800 2470 50  0000 C CNN
+F 2 "" H 3800 2550 50  0000 C CNN
+F 3 "" H 3800 2550 50  0000 C CNN
+	1    3800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR15
+U 1 1 5D9DF51D
+P 6850 2350
+F 0 "#PWR15" H 6850 2200 50  0001 C CNN
+F 1 "+5V" H 6850 2490 50  0000 C CNN
+F 2 "" H 6850 2350 50  0000 C CNN
+F 3 "" H 6850 2350 50  0000 C CNN
+	1    6850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR16
+U 1 1 5D9DF5C3
+P 6850 2600
+F 0 "#PWR16" H 6850 2400 50  0001 C CNN
+F 1 "GNDPWR" H 6850 2470 50  0000 C CNN
+F 2 "" H 6850 2550 50  0000 C CNN
+F 3 "" H 6850 2550 50  0000 C CNN
+	1    6850 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 550  2500 0    60   ~ 0
+12V Supply
+Wire Notes Line
+	5900 2250 4150 2250
+Wire Notes Line
+	4150 2250 4150 2700
+Wire Notes Line
+	4150 2700 5900 2700
+Wire Notes Line
+	5900 2700 5900 2250
+Connection ~ 4200 2400
+Connection ~ 4200 2550
+Wire Wire Line
+	3250 2400 4200 2400
+Wire Wire Line
+	3250 2500 3650 2500
+Wire Wire Line
+	3650 2550 4200 2550
+Connection ~ 3800 2550
+Wire Wire Line
+	1450 2400 2350 2400
+Wire Wire Line
+	2550 2400 2700 2400
+Wire Wire Line
+	1450 2500 2700 2500
+Wire Notes Line
+	1650 2250 1650 2650
+Wire Wire Line
+	5850 2400 6850 2400
+Wire Wire Line
+	6850 2400 6850 2350
+Wire Wire Line
+	5850 2550 6850 2550
+Wire Wire Line
+	6850 2550 6850 2600
+Text Label 4750 2500 0    60   ~ 0
+UBEC-3A-6S
+Text Notes 550  2500 0    60   ~ 0
+12V Supply
+Text Label 4750 2500 0    60   ~ 0
+UBEC-3A-6S
+Text Notes 550  2500 0    60   ~ 0
+12V Supply
+Text Label 4750 2500 0    60   ~ 0
+UBEC-3A-6S
+Text Notes 550  2500 0    60   ~ 0
+12V Supply
+Wire Wire Line
+	3650 2500 3650 2550
+Wire Wire Line
+	3800 2550 3800 2600
+$Comp
+L +5V #PWR13
+U 1 1 5DA74517
+P 4850 3600
+F 0 "#PWR13" H 4850 3450 50  0001 C CNN
+F 1 "+5V" H 4850 3740 50  0000 C CNN
+F 2 "" H 4850 3600 50  0000 C CNN
+F 3 "" H 4850 3600 50  0000 C CNN
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR14
+U 1 1 5DA7459A
+P 4850 4450
+F 0 "#PWR14" H 4850 4250 50  0001 C CNN
+F 1 "GNDPWR" H 4850 4320 50  0000 C CNN
+F 2 "" H 4850 4400 50  0000 C CNN
+F 3 "" H 4850 4400 50  0000 C CNN
+	1    4850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C7
+U 1 1 5DA745FB
+P 4850 4050
+F 0 "C7" H 4860 4120 50  0000 L CNN
+F 1 "CP1_Small" H 4860 3970 50  0001 L CNN
+F 2 "" H 4850 4050 50  0000 C CNN
+F 3 "" H 4850 4050 50  0000 C CNN
+	1    4850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C8
+U 1 1 5DA7462C
+P 5400 4050
+F 0 "C8" H 5410 4120 50  0000 L CNN
+F 1 "C_Small" H 5410 3970 50  0001 L CNN
+F 2 "" H 5400 4050 50  0000 C CNN
+F 3 "" H 5400 4050 50  0000 C CNN
+	1    5400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P19
+U 1 1 5DA746DD
+P 6950 4050
+F 0 "P19" H 6950 4200 50  0000 C CNN
+F 1 "CONN_01X02" V 7050 4050 50  0001 C CNN
+F 2 "" H 6950 4050 50  0000 C CNN
+F 3 "" H 6950 4050 50  0000 C CNN
+	1    6950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4000 6650 4000
+Wire Wire Line
+	6650 4000 6650 3800
+Wire Wire Line
+	6650 3800 4850 3800
+Wire Wire Line
+	4850 3600 4850 3950
+Connection ~ 4850 3800
+Wire Wire Line
+	6750 4100 6650 4100
+Wire Wire Line
+	6650 4100 6650 4350
+Wire Wire Line
+	6650 4350 4850 4350
+Wire Wire Line
+	4850 4150 4850 4450
+Connection ~ 4850 4350
+Wire Wire Line
+	5400 3800 5400 3950
+Connection ~ 5400 3800
+Wire Wire Line
+	5400 4150 5400 4350
+Connection ~ 5400 4350
+Wire Notes Line
+	6150 3650 6150 4650
+$EndSCHEMATC

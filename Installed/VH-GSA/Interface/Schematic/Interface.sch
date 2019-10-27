@@ -86,7 +86,7 @@ F 1 "1u" H 5310 1920 50  0000 L CNN
 F 2 "" H 5300 2000 50  0000 C CNN
 F 3 "" H 5300 2000 50  0000 C CNN
 	1    5300 2000
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CP1_Small C2
@@ -688,9 +688,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1800 5550 1800
 Wire Wire Line
-	5550 1800 5550 2150
-Wire Wire Line
-	5550 2150 5550 2200
+	5550 1800 5550 2200
 Wire Wire Line
 	4950 2150 5550 2150
 Connection ~ 5550 2150
@@ -725,13 +723,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 7400 6550 7400
 Wire Bus Line
-	750  2100 750  2200
-Wire Bus Line
-	750  2200 750  2300
-Wire Bus Line
-	750  2300 750  2400
-Wire Bus Line
-	750  2400 750  3700
+	750  2100 750  3700
 Wire Wire Line
 	850  2000 900  2000
 Wire Wire Line
@@ -743,31 +735,13 @@ Wire Wire Line
 Wire Bus Line
 	750  3700 3100 3700
 Wire Bus Line
-	3100 3700 3100 3950
+	3100 3700 3100 4250
 Wire Bus Line
-	3100 3950 3100 4050
-Wire Bus Line
-	3100 4050 3100 4150
-Wire Bus Line
-	3100 4150 3100 4250
-Wire Bus Line
-	800  2950 800  3050
-Wire Bus Line
-	800  3050 800  3150
-Wire Bus Line
-	800  3150 800  3250
-Wire Bus Line
-	800  3250 800  4450
+	800  2950 800  4450
 Wire Bus Line
 	800  4450 3100 4450
 Wire Bus Line
-	3100 4450 3100 4550
-Wire Bus Line
-	3100 4550 3100 4650
-Wire Bus Line
-	3100 4650 3100 4750
-Wire Bus Line
-	3100 4750 3100 4850
+	3100 4450 3100 4850
 Wire Notes Line
 	4000 4000 4000 3900
 Wire Notes Line
@@ -787,13 +761,7 @@ Wire Notes Line
 Wire Notes Line
 	5350 6400 5350 3900
 Wire Bus Line
-	6550 4950 6550 5050
-Wire Bus Line
-	6550 5050 6550 5150
-Wire Bus Line
-	6550 5150 6550 5250
-Wire Bus Line
-	6550 5250 6550 5650
+	6550 4950 6550 5650
 Wire Bus Line
 	6550 5650 5350 5650
 Wire Notes Line
@@ -819,9 +787,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 7350 2150 7350
 Wire Wire Line
-	2350 7350 2550 7350
-Wire Wire Line
-	2550 7350 2700 7350
+	2350 7350 2700 7350
 Wire Wire Line
 	2900 7350 3050 7350
 Wire Wire Line
@@ -854,9 +820,7 @@ Wire Notes Line
 Wire Wire Line
 	2650 1900 3000 1900
 Wire Wire Line
-	3000 1900 3000 2750
-Wire Wire Line
-	3000 2750 3000 3300
+	3000 1900 3000 3300
 Wire Wire Line
 	2650 2750 3000 2750
 Connection ~ 3000 2750

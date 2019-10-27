@@ -865,4 +865,5 @@ Text Notes 8150 7650 0    60   ~ 0
 2019/10/26
 Text Notes 7400 7500 0    60   ~ 0
 Flight Computer Interface
+Connection ~ 6000 2500
 $EndSCHEMATC

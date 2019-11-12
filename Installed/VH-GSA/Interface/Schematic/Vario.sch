@@ -66,7 +66,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4500 2900 4600
 Wire Wire Line
-	2900 4600 3000 4600
+	2400 4600 3000 4600
 $Comp
 L CONN_01X02 P?
 U 1 1 5DCAB295
@@ -86,4 +86,32 @@ Wire Wire Line
 Connection ~ 2900 4500
 Text Notes 1150 3400 0    60   ~ 0
 12V, 3A breaker
+$Comp
+L D_Temperature_Dependent D?
+U 1 1 5DCABD0C
+P 2050 4500
+F 0 "D?" H 2050 4600 50  0000 C CNN
+F 1 "LM335Z" H 2050 4375 50  0000 C CNN
+F 2 "" H 2050 4500 50  0000 C CNN
+F 3 "" H 2050 4500 50  0000 C CNN
+	1    2050 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 4600 2400 4750
+Wire Wire Line
+	2400 4750 2050 4750
+Wire Wire Line
+	2050 4750 2050 4650
+Connection ~ 2900 4600
+Wire Wire Line
+	3000 4400 2400 4400
+Wire Wire Line
+	2400 4400 2400 4250
+Wire Wire Line
+	2400 4250 2050 4250
+Wire Wire Line
+	2050 4250 2050 4350
+Text Notes 1500 4500 0    60   ~ 0
+OAT
 $EndSCHEMATC

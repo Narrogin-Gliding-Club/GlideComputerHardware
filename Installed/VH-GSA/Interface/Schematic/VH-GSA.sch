@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -60,4 +60,10 @@ Text Notes 7400 7500 0    60   ~ 0
 Flight Computer Interface
 Text Notes 8150 7650 0    60   ~ 0
 2019/10/26
+$Sheet
+S 1150 4250 3000 2350
+U 5DCAA892
+F0 "Vario" 60
+F1 "Vario.sch" 60
+$EndSheet
 $EndSCHEMATC

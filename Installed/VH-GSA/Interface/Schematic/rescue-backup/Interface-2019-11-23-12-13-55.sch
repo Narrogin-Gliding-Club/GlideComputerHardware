@@ -1,6 +1,36 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
 LIBS:VH-GSA-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VH-GSA-rescue:MAX232 U1
+L MAX232 U1
 U 1 1 5D9B4048
 P 4100 2300
 F 0 "U1" H 3550 3350 50  0000 C CNN
@@ -26,7 +56,7 @@ F 3 "" H 4100 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CP1_Small C1
+L CP1_Small C1
 U 1 1 5D9B4111
 P 3250 1550
 F 0 "C1" H 3260 1620 50  0000 L CNN
@@ -37,7 +67,7 @@ F 3 "" H 3250 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CP1_Small C3
+L CP1_Small C3
 U 1 1 5D9B41C2
 P 4950 2000
 F 0 "C3" H 4960 2070 50  0000 L CNN
@@ -48,7 +78,7 @@ F 3 "" H 4950 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CP1_Small C4
+L CP1_Small C4
 U 1 1 5D9B4269
 P 5300 2000
 F 0 "C4" H 5310 2070 50  0000 L CNN
@@ -59,7 +89,7 @@ F 3 "" H 5300 2000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CP1_Small C2
+L CP1_Small C2
 U 1 1 5D9B42EC
 P 4950 1550
 F 0 "C2" H 4960 1620 50  0000 L CNN
@@ -70,7 +100,7 @@ F 3 "" H 4950 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:RJ12 J2
+L RJ12 J2
 U 1 1 5D9B4F4C
 P 8150 1400
 F 0 "J2" H 8350 1900 50  0000 C CNN
@@ -81,7 +111,7 @@ F 3 "" H 8150 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:CONN_01X06 P7
+L CONN_01X06 P7
 U 1 1 5D9BB2B6
 P 2300 2150
 F 0 "P7" H 2300 2500 50  0000 C CNN
@@ -92,7 +122,7 @@ F 3 "" H 2300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CONN_01X06 P9
+L CONN_01X06 P9
 U 1 1 5D9BB331
 P 2450 2150
 F 0 "P9" H 2450 2500 50  0000 C CNN
@@ -103,7 +133,7 @@ F 3 "" H 2450 2150 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CONN_01X06 P10
+L CONN_01X06 P10
 U 1 1 5D9BB3AC
 P 2450 3000
 F 0 "P10" H 2450 3350 50  0000 C CNN
@@ -114,7 +144,7 @@ F 3 "" H 2450 3000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CONN_01X06 P8
+L CONN_01X06 P8
 U 1 1 5D9BB3FD
 P 2300 3000
 F 0 "P8" H 2300 3350 50  0000 C CNN
@@ -125,7 +155,7 @@ F 3 "" H 2300 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR211
+L GNDPWR #PWR211
 U 1 1 5D9D903E
 P 5550 2200
 F 0 "#PWR211" H 5550 2000 50  0001 C CNN
@@ -136,7 +166,7 @@ F 3 "" H 5550 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_B P5
+L USB_B P5
 U 1 1 5D9D9EF6
 P 1700 2100
 F 0 "P5" H 1900 1900 50  0000 C CNN
@@ -147,7 +177,7 @@ F 3 "" V 1650 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_B P6
+L USB_B P6
 U 1 1 5D9DA106
 P 1700 2950
 F 0 "P6" H 1900 2750 50  0000 C CNN
@@ -158,7 +188,7 @@ F 3 "" V 1650 2850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR208
+L GNDPWR #PWR208
 U 1 1 5D9E150F
 P 4100 3650
 F 0 "#PWR208" H 4100 3450 50  0001 C CNN
@@ -169,7 +199,7 @@ F 3 "" H 4100 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CP1_Small C5
+L CP1_Small C5
 U 1 1 5DA6B0D3
 P 6300 7300
 F 0 "C5" H 6310 7370 50  0000 L CNN
@@ -180,7 +210,7 @@ F 3 "" H 6300 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:C_Small C6
+L C_Small C6
 U 1 1 5D9E3003
 P 6550 7300
 F 0 "C6" H 6560 7370 50  0000 L CNN
@@ -191,7 +221,7 @@ F 3 "" H 6550 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR217
+L GNDPWR #PWR217
 U 1 1 5D9E30CE
 P 6450 7400
 F 0 "#PWR217" H 6450 7200 50  0001 C CNN
@@ -202,7 +232,7 @@ F 3 "" H 6450 7350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:+5V #PWR216
+L +5V #PWR216
 U 1 1 5D9E314B
 P 6450 7200
 F 0 "#PWR216" H 6450 7050 50  0001 C CNN
@@ -213,7 +243,7 @@ F 3 "" H 6450 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P16
+L USB_A P16
 U 1 1 5D9E4C0E
 P 4150 5450
 F 0 "P16" H 4350 5250 50  0000 C CNN
@@ -224,7 +254,7 @@ F 3 "" V 4100 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P17
+L USB_A P17
 U 1 1 5D9E4C7F
 P 4150 6050
 F 0 "P17" H 4350 5850 50  0000 C CNN
@@ -235,7 +265,7 @@ F 3 "" V 4100 5950 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P15
+L USB_A P15
 U 1 1 5D9E4D7F
 P 4150 4850
 F 0 "P15" H 4350 4650 50  0000 C CNN
@@ -246,7 +276,7 @@ F 3 "" V 4100 4750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P14
+L USB_A P14
 U 1 1 5D9E4E2B
 P 4150 4250
 F 0 "P14" H 4350 4050 50  0000 C CNN
@@ -257,7 +287,7 @@ F 3 "" V 4100 4150 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P1
+L USB_A P1
 U 1 1 5D9E4F55
 P 6950 5050
 F 0 "P1" H 7150 4850 50  0000 C CNN
@@ -268,7 +298,7 @@ F 3 "" V 6900 4950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:+5V #PWR207
+L +5V #PWR207
 U 1 1 5D9E5A35
 P 4100 1100
 F 0 "#PWR207" H 4100 950 50  0001 C CNN
@@ -279,7 +309,7 @@ F 3 "" H 4100 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P11
+L USB_A P11
 U 1 1 5D9E6B59
 P 3500 4250
 F 0 "P11" H 3700 4050 50  0000 C CNN
@@ -290,7 +320,7 @@ F 3 "" V 3450 4150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P12
+L USB_A P12
 U 1 1 5D9E6BE9
 P 3500 4850
 F 0 "P12" H 3700 4650 50  0000 C CNN
@@ -301,7 +331,7 @@ F 3 "" V 3450 4750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_B P3
+L USB_B P3
 U 1 1 5D9E7855
 P 1200 2100
 F 0 "P3" H 1400 1900 50  0000 C CNN
@@ -320,7 +350,7 @@ Entry Wire Line
 Entry Wire Line
 	750  2400 850  2300
 $Comp
-L VH-GSA-rescue:USB_B P4
+L USB_B P4
 U 1 1 5D9E7FA6
 P 1200 2950
 F 0 "P4" H 1400 2750 50  0000 C CNN
@@ -365,7 +395,7 @@ Entry Wire Line
 Entry Wire Line
 	6550 5250 6650 5150
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR212
+L GNDPWR #PWR212
 U 1 1 5D9EC6E0
 P 6000 3850
 F 0 "#PWR212" H 6000 3650 50  0001 C CNN
@@ -380,7 +410,7 @@ S8
 Text Notes 7250 5000 0    60   ~ 0
 Kobo
 $Comp
-L VH-GSA-rescue:RJ45 J1
+L RJ45 J1
 U 1 1 5DA4AAC7
 P 8150 2750
 F 0 "J1" H 8350 3250 50  0000 C CNN
@@ -391,7 +421,7 @@ F 3 "" H 8150 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:+5V #PWR209
+L +5V #PWR209
 U 1 1 5DA4B908
 P 4650 3750
 F 0 "#PWR209" H 4650 3600 50  0001 C CNN
@@ -402,7 +432,7 @@ F 3 "" H 4650 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR210
+L GNDPWR #PWR210
 U 1 1 5DA4B9EC
 P 4650 6600
 F 0 "#PWR210" H 4650 6400 50  0001 C CNN
@@ -417,7 +447,7 @@ Entry Wire Line
 Text Notes 4800 5250 0    60   ~ 0
 4 Port\nUSB 2.0\nHUB
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR213
+L GNDPWR #PWR213
 U 1 1 5DA4C0C2
 P 6000 3850
 F 0 "#PWR213" H 6000 3650 50  0001 C CNN
@@ -434,7 +464,7 @@ Entry Wire Line
 Text Notes 4800 5250 0    60   ~ 0
 4 Port\nUSB 2.0\nHUB
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR214
+L GNDPWR #PWR214
 U 1 1 5DA4E40C
 P 6000 3850
 F 0 "#PWR214" H 6000 3650 50  0001 C CNN
@@ -451,7 +481,7 @@ Entry Wire Line
 Text Notes 4800 5250 0    60   ~ 0
 4 Port\nUSB 2.0\nHUB
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR215
+L GNDPWR #PWR215
 U 1 1 5DA4E436
 P 6000 3850
 F 0 "#PWR215" H 6000 3650 50  0001 C CNN
@@ -466,7 +496,7 @@ Aux
 Text Notes 7250 5000 0    60   ~ 0
 Kobo
 $Comp
-L VH-GSA-rescue:+5C #PWR218
+L +5C #PWR218
 U 1 1 5DA74C09
 P 7050 2950
 F 0 "#PWR218" H 7050 2800 50  0001 C CNN
@@ -477,7 +507,7 @@ F 3 "" H 7050 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:Jumper_NC_Small JP2
+L Jumper_NC_Small JP2
 U 1 1 5DA7551F
 P 2800 7350
 F 0 "JP2" H 2800 7430 50  0000 C CNN
@@ -488,7 +518,7 @@ F 3 "" H 2800 7350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:Jumper_NO_Small JP1
+L Jumper_NO_Small JP1
 U 1 1 5DA756DA
 P 2250 7350
 F 0 "JP1" H 2250 7430 50  0000 C CNN
@@ -499,7 +529,7 @@ F 3 "" H 2250 7350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:+5V #PWR204
+L +5V #PWR204
 U 1 1 5DA7581A
 P 2550 6800
 F 0 "#PWR204" H 2550 6650 50  0001 C CNN
@@ -510,7 +540,7 @@ F 3 "" H 2550 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:+5P #PWR203
+L +5P #PWR203
 U 1 1 5DA75885
 P 2000 7250
 F 0 "#PWR203" H 2000 7100 50  0001 C CNN
@@ -521,7 +551,7 @@ F 3 "" H 2000 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:+5C #PWR206
+L +5C #PWR206
 U 1 1 5DA758F0
 P 3050 7250
 F 0 "#PWR206" H 3050 7100 50  0001 C CNN
@@ -532,7 +562,7 @@ F 3 "" H 3050 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:Polyfuse_Small F1
+L Polyfuse_Small F1
 U 1 1 5DA75E8B
 P 2550 7050
 F 0 "F1" V 2475 7050 50  0000 C CNN
@@ -543,7 +573,7 @@ F 3 "" H 2550 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:USB_A P13
+L USB_A P13
 U 1 1 5DA766D1
 P 3500 5450
 F 0 "P13" H 3700 5250 50  0000 C CNN
@@ -556,7 +586,7 @@ $EndComp
 Text Notes 2000 5450 0    60   ~ 0
 GPS
 $Comp
-L VH-GSA-rescue:CONN_01X02 P2
+L CONN_01X02 P2
 U 1 1 5DA78DD3
 P 1200 6400
 F 0 "P2" H 1200 6550 50  0000 C CNN
@@ -567,7 +597,7 @@ F 3 "" H 1200 6400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:+5P #PWR201
+L +5P #PWR201
 U 1 1 5DA7934A
 P 1750 6300
 F 0 "#PWR201" H 1750 6150 50  0001 C CNN
@@ -578,7 +608,7 @@ F 3 "" H 1750 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR202
+L GNDPWR #PWR202
 U 1 1 5DA79475
 P 1750 6500
 F 0 "#PWR202" H 1750 6300 50  0001 C CNN
@@ -589,7 +619,7 @@ F 3 "" H 1750 6450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR205
+L GNDPWR #PWR205
 U 1 1 5DB1839A
 P 3000 3300
 F 0 "#PWR205" H 3000 3100 50  0001 C CNN
@@ -658,7 +688,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1800 5550 1800
 Wire Wire Line
-	5550 1800 5550 2150
+	5550 1800 5550 2200
 Wire Wire Line
 	4950 2150 5550 2150
 Connection ~ 5550 2150
@@ -692,6 +722,8 @@ Wire Wire Line
 	6300 7200 6550 7200
 Wire Wire Line
 	6300 7400 6550 7400
+Wire Bus Line
+	750  2100 750  3700
 Wire Wire Line
 	850  2000 900  2000
 Wire Wire Line
@@ -703,7 +735,13 @@ Wire Wire Line
 Wire Bus Line
 	750  3700 3100 3700
 Wire Bus Line
+	3100 3700 3100 4250
+Wire Bus Line
+	800  2950 800  4450
+Wire Bus Line
 	800  4450 3100 4450
+Wire Bus Line
+	3100 4450 3100 4850
 Wire Notes Line
 	4000 4000 4000 3900
 Wire Notes Line
@@ -723,11 +761,13 @@ Wire Notes Line
 Wire Notes Line
 	5350 6400 5350 3900
 Wire Bus Line
+	6550 4950 6550 5650
+Wire Bus Line
 	6550 5650 5350 5650
 Wire Notes Line
 	6350 5400 6350 5900
 Wire Wire Line
-	6000 1700 6000 2500
+	6000 1700 6000 3850
 Wire Wire Line
 	7700 1700 6000 1700
 Wire Wire Line
@@ -747,7 +787,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 7350 2150 7350
 Wire Wire Line
-	2350 7350 2550 7350
+	2350 7350 2700 7350
 Wire Wire Line
 	2900 7350 3050 7350
 Wire Wire Line
@@ -780,7 +820,7 @@ Wire Notes Line
 Wire Wire Line
 	2650 1900 3000 1900
 Wire Wire Line
-	3000 1900 3000 2750
+	3000 1900 3000 3300
 Wire Wire Line
 	2650 2750 3000 2750
 Connection ~ 3000 2750
@@ -793,11 +833,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 2600 5900 1600
 $Comp
-L VH-GSA-rescue:+12C #PWR219
+L +12C #PWR219
 U 1 1 5DB44227
 P 7400 1050
-AR Path="/5DB44227" Ref="#PWR219"  Part="1" 
-AR Path="/5DA60046/5DB44227" Ref="#PWR219"  Part="1" 
 F 0 "#PWR219" H 7400 900 50  0001 C CNN
 F 1 "+12C" H 7400 1200 50  0000 C CNN
 F 2 "" H 7400 1050 50  0000 C CNN
@@ -828,22 +866,4 @@ Text Notes 8150 7650 0    60   ~ 0
 Text Notes 7400 7500 0    60   ~ 0
 Flight Computer Interface
 Connection ~ 6000 2500
-Wire Wire Line
-	5550 2150 5550 2200
-Wire Wire Line
-	2550 7350 2700 7350
-Wire Wire Line
-	3000 2750 3000 3300
-Wire Wire Line
-	6000 2500 6000 3850
-Wire Bus Line
-	750  2100 750  3700
-Wire Bus Line
-	3100 3700 3100 4250
-Wire Bus Line
-	800  2950 800  4450
-Wire Bus Line
-	3100 4450 3100 4850
-Wire Bus Line
-	6550 4950 6550 5650
 $EndSCHEMATC

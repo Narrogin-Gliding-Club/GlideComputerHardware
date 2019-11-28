@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name VH-GSA-rescue)(type Legacy)(uri ${KIPRJMOD}/VH-GSA-rescue.lib)(options "")(descr ""))
+)

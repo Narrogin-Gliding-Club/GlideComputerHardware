@@ -1,4 +1,4 @@
-update=Sat 23 Nov 2019 12:13:59 PM AWST
+update=Fri 22 Nov 2019 08:15:30 PM AWST
 version=1
 last_client=kicad
 [pcbnew]

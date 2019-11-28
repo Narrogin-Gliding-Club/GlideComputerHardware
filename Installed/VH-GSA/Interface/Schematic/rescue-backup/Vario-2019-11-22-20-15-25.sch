@@ -1,6 +1,36 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
 LIBS:VH-GSA-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VH-GSA-rescue:DB15 J?
+L DB15 J?
 U 1 1 5DCAB17A
 P 3450 3900
 F 0 "J?" H 3470 4750 50  0000 C CNN
@@ -38,7 +68,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 4600 3000 4600
 $Comp
-L VH-GSA-rescue:CONN_01X02 P?
+L CONN_01X02 P?
 U 1 1 5DCAB295
 P 2100 3350
 F 0 "P?" H 2100 3500 50  0000 C CNN
@@ -57,7 +87,7 @@ Connection ~ 2900 4500
 Text Notes 1150 3400 0    60   ~ 0
 12V, 3A breaker
 $Comp
-L VH-GSA-rescue:D_Temperature_Dependent D?
+L D_Temperature_Dependent D?
 U 1 1 5DCABD0C
 P 2050 4500
 F 0 "D?" H 2050 4600 50  0000 C CNN

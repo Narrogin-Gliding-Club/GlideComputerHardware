@@ -1,10 +1,40 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
 LIBS:VH-GSA-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -17,7 +47,7 @@ $EndDescr
 Text Label 4750 2500 0    60   ~ 0
 UBEC-3A-6S
 $Comp
-L VH-GSA-rescue:CONN_01X03 P20
+L CONN_01X03 P20
 U 1 1 5D9DB585
 P 3050 2500
 F 0 "P20" H 3050 2700 50  0000 C CNN
@@ -28,7 +58,7 @@ F 3 "" H 3050 2500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CONN_01X03 P19
+L CONN_01X03 P19
 U 1 1 5D9DB5EA
 P 2900 2500
 F 0 "P19" H 2900 2700 50  0000 C CNN
@@ -39,7 +69,7 @@ F 3 "" H 2900 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:Polyfuse_Small F2
+L Polyfuse_Small F2
 U 1 1 5D9DC029
 P 2450 2400
 F 0 "F2" V 2375 2400 50  0000 C CNN
@@ -50,7 +80,7 @@ F 3 "" H 2450 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VH-GSA-rescue:CONN_01X02 P18
+L CONN_01X02 P18
 U 1 1 5D9DC29B
 P 1250 2450
 F 0 "P18" H 1250 2600 50  0000 C CNN
@@ -61,10 +91,10 @@ F 3 "" H 1250 2450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR301
+L GNDPWR #PWR18
 U 1 1 5D9DD65D
 P 3800 2600
-F 0 "#PWR301" H 3800 2400 50  0001 C CNN
+F 0 "#PWR18" H 3800 2400 50  0001 C CNN
 F 1 "GNDPWR" H 3800 2470 50  0000 C CNN
 F 2 "" H 3800 2550 50  0000 C CNN
 F 3 "" H 3800 2550 50  0000 C CNN
@@ -72,10 +102,10 @@ F 3 "" H 3800 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:+5V #PWR304
+L +5V #PWR21
 U 1 1 5D9DF51D
 P 6850 2350
-F 0 "#PWR304" H 6850 2200 50  0001 C CNN
+F 0 "#PWR21" H 6850 2200 50  0001 C CNN
 F 1 "+5V" H 6850 2490 50  0000 C CNN
 F 2 "" H 6850 2350 50  0000 C CNN
 F 3 "" H 6850 2350 50  0000 C CNN
@@ -83,10 +113,10 @@ F 3 "" H 6850 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR305
+L GNDPWR #PWR22
 U 1 1 5D9DF5C3
 P 6850 2600
-F 0 "#PWR305" H 6850 2400 50  0001 C CNN
+F 0 "#PWR22" H 6850 2400 50  0001 C CNN
 F 1 "GNDPWR" H 6850 2470 50  0000 C CNN
 F 2 "" H 6850 2550 50  0000 C CNN
 F 3 "" H 6850 2550 50  0000 C CNN
@@ -145,10 +175,10 @@ Wire Wire Line
 Wire Wire Line
 	3800 2550 3800 2600
 $Comp
-L VH-GSA-rescue:+5V #PWR302
+L +5V #PWR19
 U 1 1 5DA74517
 P 4850 3600
-F 0 "#PWR302" H 4850 3450 50  0001 C CNN
+F 0 "#PWR19" H 4850 3450 50  0001 C CNN
 F 1 "+5V" H 4850 3740 50  0000 C CNN
 F 2 "" H 4850 3600 50  0000 C CNN
 F 3 "" H 4850 3600 50  0000 C CNN
@@ -156,10 +186,10 @@ F 3 "" H 4850 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:GNDPWR #PWR303
+L GNDPWR #PWR20
 U 1 1 5DA7459A
 P 4850 4450
-F 0 "#PWR303" H 4850 4250 50  0001 C CNN
+F 0 "#PWR20" H 4850 4250 50  0001 C CNN
 F 1 "GNDPWR" H 4850 4320 50  0000 C CNN
 F 2 "" H 4850 4400 50  0000 C CNN
 F 3 "" H 4850 4400 50  0000 C CNN
@@ -167,7 +197,7 @@ F 3 "" H 4850 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CP1_Small C7
+L CP1_Small C7
 U 1 1 5DA745FB
 P 4850 4050
 F 0 "C7" H 4860 4120 50  0000 L CNN
@@ -178,7 +208,7 @@ F 3 "" H 4850 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:C_Small C8
+L C_Small C8
 U 1 1 5DA7462C
 P 5400 4050
 F 0 "C8" H 5410 4120 50  0000 L CNN
@@ -189,7 +219,7 @@ F 3 "" H 5400 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VH-GSA-rescue:CONN_01X02 P21
+L CONN_01X02 P21
 U 1 1 5DA746DD
 P 6950 4050
 F 0 "P21" H 6950 4200 50  0000 C CNN
@@ -225,8 +255,4 @@ Wire Wire Line
 Connection ~ 5400 4350
 Wire Notes Line
 	6150 3650 6150 4650
-Text Notes 7350 7500 0    60   ~ 0
-Flight Computer Interface
-Text Notes 8150 7650 0    60   ~ 0
-2019/10/26
 $EndSCHEMATC

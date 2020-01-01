@@ -2,6 +2,17 @@
 #include <string.h>
 #include <malloc.h>
 
+/**
+ * Does some quick checks on a NMEA file. Assumes that the NMEA records are
+ * terminated by '\n'. Records written by the XCSoar raw logger functionality
+ * are terminated in this manner. However, some instruments terminate with
+ * a "\r\n". In  this case it is necessary to remove the '\r'. This may be
+ * done by:
+ * $ cat <NMEA file> | sed -e 's/\r//' | nmeachk
+ *
+ */
+
+//------------------------------------------------------------------------------
 bool checksum(const char record[])
   {
   char asccs[8];
@@ -9,17 +20,18 @@ bool checksum(const char record[])
   int i;
   size_t s = strlen(record);
 
-  if (s < 5)
+  if (s < 4)
     return false;   // There is no checksum in the input!
-  for (i = 1; i < s - 5; i++)
+  for (i = 1; i < s - 4; i++)
     crc ^= record[i];
 
   sprintf(asccs, "%X", crc);
-  if (strncmp(&(record[s - 4]), asccs, 2) != 0)
+  if (strncmp(&(record[s - 3]), asccs, 2) != 0)
     return false;
   return true;
   }
 
+//------------------------------------------------------------------------------
 int main(int argc, const char *argv[])
   {
   FILE *in = stdin;
